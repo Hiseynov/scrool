@@ -1,0 +1,61 @@
+body {
+  height: 90vh;
+  place-items: center;
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+}
+
+.slider {
+  width: 100%;
+  max-width: 400px;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide button {
+  width: 98%;
+  height: 100%;
+  background-color: white;
+  border: none;
+  outline: none;
+  color: blue;
+  font-size: 22px;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 18px;
+  color: blue;
+  outline: none;
+  top: 30%;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-prev {
+  left: 2%;
+}
+
+.btn-next {
+  right: 2%;
+}/*# sourceMappingURL=msin.css.map */

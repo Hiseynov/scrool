@@ -1,0 +1,57 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aquamarine;
+  position: relative;
+}
+
+.slider {
+  position: relative;
+  background-color: #fff;
+  height: 80px;
+  width: 500px;
+  overflow: hidden;
+  display: flex;
+  border: 1px solid green;
+}
+
+.slide {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  width: 25%;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+.btn button {
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid burlywood;
+  color: red;
+  outline: none;
+}
+.btn__next {
+  position: absolute;
+  right: 20%;
+  top: 47%;
+}
+.btn__prev {
+  position: absolute;
+  left: 18%;
+  top: 47%;
+}
+
+.pagination {
+  position: absolute;
+  top: 65%;
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}/*# sourceMappingURL=style.css.map */
